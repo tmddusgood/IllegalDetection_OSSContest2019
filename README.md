@@ -25,6 +25,7 @@ End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로
  4.추출된 텍스트를 일반 텍스트와 취합합니다.  
  5.CTC Loss - 향후 계획 란 참조    
 
+
 ![도표2](https://user-images.githubusercontent.com/44759382/66232653-51e03d80-e724-11e9-9bc9-a6177c4f0e76.png)
 <그림3>
 
