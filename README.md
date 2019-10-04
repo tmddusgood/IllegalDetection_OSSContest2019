@@ -9,7 +9,7 @@ Open Source Software Contest 2019
 
 # 처리과정
 일리아이즈 소프트웨어의 전체적인 처리순서는 <그림2>와 같이 진행됩니다.  
-![도표1](https://user-images.githubusercontent.com/44759382/66232642-4b51c600-e724-11e9-80bc-957c606922a3.png)
+![도표1](https://user-images.githubusercontent.com/44759382/66236568-c9ff3100-e72d-11e9-8e2c-be17e95ae27e.png)
 <그림2>
 End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로부터 텍스트와 이미지를 추출합니다.  
 텍스트 처리 
@@ -25,7 +25,7 @@ End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로
  4.추출된 텍스트를 일반 텍스트와 취합합니다.  
  5.CTC Loss - 향후 계획 란 참조    
  
-![도표2](https://user-images.githubusercontent.com/44759382/66232653-51e03d80-e724-11e9-9bc9-a6177c4f0e76.png)
+![도표2](https://user-images.githubusercontent.com/44759382/66236573-cc618b00-e72d-11e9-8112-a91dec913d0a.png)
 <그림3>
 <그림3>에는 일리아이즈의 텍스트/이미지 분석 모델의 발전과정이 나타나 있습니다.
 초기 분석에는 naive bayesian을 이용하여 텍스트를 분류하였고, 이후 정확도를 높이려는 과정에서 텍스트 분석에 머신러닝을 이용, 이미지 인식에 OCR을 이용하는 방식에서 머신러닝을 적용한 방식을 추가적으로 적용하였습니다.
