@@ -47,7 +47,7 @@ End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로
 ![KakaoTalk_20191005_162143535](https://user-images.githubusercontent.com/28249894/66251729-3f9ae980-e78e-11e9-9ed3-353dd6ab43c1.jpg)  
 <그림 6>  
 그림6은 반대로 deiltion의 수치를 낮게하여 한 글자씩 boxing 과정을 한 모습입니다. 이 경우 한 글자씩 되는 경우가 많지만 자음 혹은 모음만 boxing을 하거나 안하는 경우가 생겨 이후 인식과정에 영향을 미치도록 합니다.  
-따라서 일리아이즈는 이러한 문제를 해결하여 안정된 boxing을 할 수 있도록 하려 합니다.
+따라서 일리아이즈는 이러한 문제를 해결하여 안정된 boxing을 할 수 있도록 하려 합니다.  
   
 일리아이즈는 현재 이미지/텍스트 분석 모델에 머신러닝을 이용하고 있습니다.향후 CTC(Connectionist Temporal Classfication를 이용하여 문자열을 분류할 계획이며, 이를 통해 입력된 url의 페이지로부터 판정된 결과의 정확도에 있어 유의미한 향상을 기대하고 있습니다.  
 ![프레젠테이션 1](https://user-images.githubusercontent.com/44759382/66252262-462c5f80-e794-11e9-8c0c-6b9ff2ac8490.png)  
