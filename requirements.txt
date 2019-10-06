@@ -20,7 +20,7 @@ tesseract==0.1.3
 tqdm==4.31.1
 urllib3==1.24.1
 xlsxwriter==1.1.9
-Flask==0.11.1
+Flask==1.0
 requests==2.10.0
 beautifulsoup4==4.4.1
             
