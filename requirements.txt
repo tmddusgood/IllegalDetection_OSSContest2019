@@ -21,6 +21,6 @@ tqdm==4.31.1
 urllib3==1.24.1
 xlsxwriter==1.1.9
 Flask==0.11.1
-requests==2.20.0
+requests==2.22.0
 beautifulsoup4==4.4.1
             
