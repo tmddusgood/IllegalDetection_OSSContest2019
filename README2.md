@@ -14,35 +14,34 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### Installing  
+## Installing  
 
-#### 아나콘다     
-[Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전   
+### 아나콘다     
+[Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전
+* 설치시 아래와 같이 환경변수 설정 포함 선택
+
+
   
-#### Tessract 5.0-alpha     
+### Tessract 5.0-alpha     
 [Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
 
-1.설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
+* 설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
 
-2.설치 후 아래와 같이 환경변수 탭 클릭  
+* 설치 후 아래와 같이 환경변수 탭 클릭  
 
 ![tesseract1](https://user-images.githubusercontent.com/39071632/66267863-9b8a6e80-e871-11e9-9ac2-cc9224976936.JPG)
 
 
-3.Path 설정  
+* Path 설정  
 ![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG)
 
 ![tesseract3](https://user-images.githubusercontent.com/39071632/66267866-a04f2280-e871-11e9-837d-cc8f5774d4bc.JPG)
 
-4.TESSDATA_PREFIX 설정  
-![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG)
+* TESSDATA_PREFIX 설정
 
+![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG)  
 
-
-
-
-
-#### 가상환경 생성   
+### 가상환경 생성   
 
 Anaconda prompt 실행 후 
 
@@ -50,24 +49,71 @@ Anaconda prompt 실행 후
 conda create --name [가상환경명] python=[파이썬 3.x버전]
 ```
 
-#### 가상환경 활성화
+### 가상환경 활성화
 
 ```
 activate [가상환경명]
 ```
-#### 모듈 설치  
+### 모듈 설치  
   
-pip 업그레이드  
+#### pip 업그레이드  
  
 ```
 pip install --upgrade pip
 ```  
 
-텐서플로우  
+#### Tensorflow  
+
+* cpu 사용
+```
+pip install tensorflow==1.12  
+```  
+* GPU 사용    
+```
+pip install tensorflow-gpu==1.12  
+```  
+
+#### Opencv  
 
 ```
-pip install tensorflow
+pip install opencv-contrib-python
+```  
+#### Keras  
+
+* cpu 사용 
 ```
+pip install keras==2.3.0
+```
+
+* gpu 사용 
+```
+pip install keras-gpu==2.3.0
+```
+
+#### Tqdm  
+
+```
+pip install tqdm
+```
+
+#### Pytesseract  
+
+```
+pip install pytesseract
+```
+
+
+#### Konlpy  
+
+```
+```
+
+
+
+
+
+
+
 
 
 
