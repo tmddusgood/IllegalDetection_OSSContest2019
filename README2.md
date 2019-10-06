@@ -18,9 +18,6 @@ Give examples
 
 ### 아나콘다     
 [Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전
-* 설치시 아래와 같이 환경변수 설정 포함 선택
-
-
   
 ### Tessract 5.0-alpha     
 [Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
