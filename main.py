@@ -4,7 +4,7 @@ from ImageClassification import ocr_prediction
 import cv2
 pre_input = input_preprocessing()
 html_text = pre_input.get_text()
-# html_text = string 형태로 걍 대체 시키면 된다
+# html_text = string
 kor_bag = pre_input.extractkor(str(html_text))
 split_kor = pre_input.splitkor_kornouns(kor_bag)
 # image join needed
