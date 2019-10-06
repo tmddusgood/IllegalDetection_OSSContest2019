@@ -62,4 +62,4 @@ pip install konlpy
 * 방송통신심의위원회 기준에 의거한 불법 도박 사이트 본문과 사진 이용
 * Ver 1. Testset Acuuracy: 42.9% (310000개 인덱싱)
 * Ver 2. Testset Accuracy: 89.9% (30000개 인덱싱)
-* Ver 2. Testset Accuracy: 97.9% (100000개 인덱싱)
+* Ver 3. Testset Accuracy: 97.9% (100000개 인덱싱)
