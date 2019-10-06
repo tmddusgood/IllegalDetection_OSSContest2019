@@ -15,14 +15,14 @@ Give examples
 ```
 
 ### Installing
-#### *아나콘다   
+#### * 아나콘다   
 [Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전 
   
-#### *Tessract 5.0-alpha   
+#### * Tessract 5.0-alpha   
 [Tesseract 5.0-alpha(window version)](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전 
 
 
-#### *가상환경 생성 
+#### * 가상환경 생성 
 
 Anaconda prompt 실행 후 
 
@@ -30,7 +30,7 @@ Anaconda prompt 실행 후
 conda create --name [가상환경명] python=[파이썬 3.x버전]
 ```
 
-#### *가상환경 활성화
+#### * 가상환경 활성화
 
 ```
 activate [가상환경명]
