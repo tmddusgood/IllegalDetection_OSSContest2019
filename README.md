@@ -57,9 +57,9 @@ pip install konlpy
 
 ## Details  
 * 일반 신문 기사 : 스포츠 기사 : 불법 도박사이트 본문 = 7: 2: 1 / 총 45000개로 학습 (Train:Test - 8:2 Split)
-* InceptionV3 Model 을 사용하여 비텍스트와 진텍스트 구분
+* InceptionV3 Model 을 사용하여 비텍스트와 텍스트 구분
 * Keras와 K-Fold 교차검증법을 사용한 자연어처리
-* 총 300000만 개 중 100000만 개 단어의 인덱싱을 통해 최적의 모델 구축
 * 방송통신심의위원회 기준에 의거한 불법 도박 사이트 본문과 사진 이용
-* Ver 1. Testset Acuuracy: 89.9%
-* Ver 2. Testset Accuracy: 97.9%
+* Ver 1. Testset Acuuracy: 42.9% (310000개 인덱싱)
+* Ver 2. Testset Accuracy: 89.9% (30000개 인덱싱)
+* Ver 2. Testset Accuracy: 97.9% (100000개 인덱싱)
