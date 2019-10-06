@@ -51,8 +51,8 @@ pip install h5py
 * JAVA_HOME 설정 (환경 변수)
 * JPype1 (>=0.5.7)을 다운로드 후 설치 (아래 링크에서 버전 별 선택)
 * Window에서는 Mecab() 지원 X
+* 참고: https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype
 ```
-https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype
 pip install -upgrade pip
 EX) pip install JPype1-0.5.7-cp[your_version]-none-win_amd64.whl
 pip install konlpy
@@ -61,10 +61,7 @@ pip install konlpy
 ## 성능  
 * 신문 기사 45000개
 * 방송통신심의위원회 기준에 의거한 불법 도박 사이트 본문과 사진
-|제목|내용|설명|
-|------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-
-출처: https://poorman.tistory.com/352 [poorman]
+| 왼쪽 정렬 | 가운데 정렬 | 오른쪽 정렬 |
+|:--------|:--------:|--------:|
+| 내용 11 | 내용 12 | 내용 13 |
+| 내용 21 | 내용 22 | 내용 23 |
