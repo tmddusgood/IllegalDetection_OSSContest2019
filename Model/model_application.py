@@ -6,10 +6,10 @@ import pickle
 import os
 
 class model_application:
-    def __init__(self):
+    def __init__(self,newData):
         self.dataform = '.\\Dataset\\dataset_form.csv'
         self.dataset = '.\\Dataset\\prototype_final_shuffle_dataset(50000)_real.csv'
-        self.newdata = '.\\Dataset\\pure_new_dataset.csv'
+        self.newdata =newData
         self.model_tokenizer = 'tokenizer.word_index_original_new_100000'
         self.model_nlp = '.\\Model\\illegal_nlp_model_new_100000.h5'
         self.model_tokenizer_path = '.\\Model\\' + self.model_tokenizer
