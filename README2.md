@@ -6,7 +6,7 @@ One Paragraph of project description goes here
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## 개발환경
 
 What things you need to install the software and how to install them
 
@@ -14,11 +14,97 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### Installing
+## 설치방법  
 
-A step by step series of examples that tell you how to get a development env running
+### 아나콘다     
+[Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전
+  
+### Tessract 5.0-alpha     
+[Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
 
-Say what the step will be
+* 설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
+
+* 설치 후 아래와 같이 환경변수 탭 클릭  
+
+![tesseract1](https://user-images.githubusercontent.com/39071632/66267863-9b8a6e80-e871-11e9-9ac2-cc9224976936.JPG)
+
+
+* Path 설정  
+![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG)
+
+![tesseract3](https://user-images.githubusercontent.com/39071632/66267866-a04f2280-e871-11e9-837d-cc8f5774d4bc.JPG)
+
+* TESSDATA_PREFIX 설정
+
+![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG)  
+
+### 가상환경 생성   
+
+Anaconda prompt 실행 후 
+
+```
+conda create --name [가상환경명] python=[파이썬 3.x버전]
+```
+
+### 가상환경 활성화
+
+```
+activate [가상환경명]
+```
+### 모듈 설치  
+  
+#### pip 업그레이드  
+ 
+```
+pip install --upgrade pip
+```  
+
+#### Tensorflow  
+
+* cpu 사용
+```
+pip install tensorflow==1.12  
+```  
+* GPU 사용    
+```
+pip install tensorflow-gpu==1.12  
+```  
+
+#### Opencv  
+
+```
+pip install opencv-contrib-python
+```  
+#### Keras  
+
+* cpu 사용 
+```
+pip install keras==2.3.0
+```
+
+* gpu 사용 
+```
+pip install keras-gpu==2.3.0
+```
+
+#### Tqdm  
+
+```
+pip install tqdm
+```
+
+#### Pytesseract  
+
+```
+pip install pytesseract
+```
+#### h5py  
+
+```
+pip install h5py
+```
+
+#### Konlpy  
 
 ```
 Give the example
@@ -32,17 +118,15 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## 실행방법
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+## 알려진 버그
 
-```
-Give an example
-```
+
+
+
 
 ### And coding style tests
 
