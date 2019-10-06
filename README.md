@@ -7,7 +7,7 @@ Open Source Software Contest 2019
 
 # 처리과정
 일리아이즈 소프트웨어의 전체적인 처리순서는 <그림2>와 같이 진행됩니다.    
-![도표1](https://user-images.githubusercontent.com/44759382/66236568-c9ff3100-e72d-11e9-8e2c-be17e95ae27e.png)   
+![image](https://user-images.githubusercontent.com/39071543/66269507-25dbce00-e884-11e9-980c-7991002b099c.png)  
  <그림2>   
 End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로부터 텍스트와 이미지를 추출합니다.  
 텍스트 처리  
@@ -34,10 +34,10 @@ End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로
 [Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
 * 설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
 * Path 설정  
-![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG)
-![tesseract3](https://user-images.githubusercontent.com/39071632/66267866-a04f2280-e871-11e9-837d-cc8f5774d4bc.JPG)
+![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG){: width="50%" height="50%"}
+![tesseract3](https://user-images.githubusercontent.com/39071632/66267866-a04f2280-e871-11e9-837d-cc8f5774d4bc.JPG){: width="50%" height="50%"}
 * TESSDATA_PREFIX 설정
-![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG)  
+![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG){: width="50%" height="50%"} 
 
 ## pip 업그레이드, 가상환경 생성 후 활성화 
 
