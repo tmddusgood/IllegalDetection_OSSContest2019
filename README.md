@@ -61,8 +61,10 @@ pip install konlpy
 ## 성능  
 * 신문 기사 45000개
 * 방송통신심의위원회 기준에 의거한 불법 도박 사이트 본문과 사진
-| Header One | Header Two | Header Three | Header Four | 
-| ---------- | :--------- | :----------: | ----------: | 
-| Default | Left | Center | Right |
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
 
 출처: https://poorman.tistory.com/352 [poorman]
