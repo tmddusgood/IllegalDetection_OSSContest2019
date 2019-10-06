@@ -1,5 +1,4 @@
 # Illegal Sports Gambling Filtering by Keras NLP + InceptionV3 Classification
-Open Source Software Contest 2019
 텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사이트에 대한 단속을 목적으로 합니다.
 
 ![image](https://user-images.githubusercontent.com/39071543/66269437-4d7e6680-e883-11e9-9051-820ac8556e4c.png)
