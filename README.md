@@ -2,8 +2,7 @@
 Open Source Software Contest 2019
 텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사이트에 대한 단속 목적 
 
-<center><img src="https://user-images.githubusercontent.com/28249894/66255556-d46a0b00-e7bf-11e9-8797-4e8398a15438.jpg" width="300" height="300"></center>
-
+![file1](https://user-images.githubusercontent.com/39071543/66269393-cd580100-e882-11e9-9836-d94f4156cf59.PNG)
 텍스트를 인식 및 추출 후 다른 텍스트와 함께 자연어처리를 수행합니다.
 
 # 처리과정
