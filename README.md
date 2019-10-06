@@ -2,8 +2,8 @@
 Open Source Software Contest 2019
 텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사이트에 대한 단속 목적 
 
-![file1](https://user-images.githubusercontent.com/39071543/66269393-cd580100-e882-11e9-9836-d94f4156cf59.PNG)
-텍스트를 인식 및 추출 후 다른 텍스트와 함께 자연어처리를 수행합니다.
+![image](https://user-images.githubusercontent.com/39071543/66269437-4d7e6680-e883-11e9-9051-820ac8556e4c.png)
+텍스트를 인식 및 추출 후 다른 텍스트와 함께 자연어처리를 수행합니다.  
 
 # 처리과정
 일리아이즈 소프트웨어의 전체적인 처리순서는 <그림2>와 같이 진행됩니다.    
