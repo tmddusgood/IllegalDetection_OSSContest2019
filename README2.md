@@ -26,14 +26,17 @@ Give examples
 
 2.설치 후 아래와 같이 환경변수 탭 클릭  
 
-![Alt installation1](C:\Users\rlarlghks\Desktop\tesseract1.jpg)  
+![tesseract1](https://user-images.githubusercontent.com/39071632/66267863-9b8a6e80-e871-11e9-9ac2-cc9224976936.JPG)
+
 
 3.Path 설정  
-![Alt installation2](C:\Users\rlarlghks\Desktop\tesseract2.jpg)    
-![Alt installation3](C:\Users\rlarlghks\Desktop\tesseract3.jpg)    
+![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG)
+
+![tesseract3](https://user-images.githubusercontent.com/39071632/66267866-a04f2280-e871-11e9-837d-cc8f5774d4bc.JPG)
 
 4.TESSDATA_PREFIX 설정  
-![Alt installation4](C:\Users\rlarlghks\Desktop\tesseract4.jpg)    
+![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG)
+
 
 
 
