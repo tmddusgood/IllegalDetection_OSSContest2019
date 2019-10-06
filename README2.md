@@ -20,8 +20,14 @@ Give examples
 [Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전   
   
 #### Tessract 5.0-alpha     
-[Tesseract 5.0-alpha(window version)](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전  
-설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR 
+[Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
+
+설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
+
+설치 후 아래와 같이 환경변수 탭 클릭
+![Alt installation1](/tesseract1.jpg)
+
+
 
 #### 가상환경 생성   
 
@@ -36,7 +42,19 @@ conda create --name [가상환경명] python=[파이썬 3.x버전]
 ```
 activate [가상환경명]
 ```
-#### 
+#### 모듈 설치  
+  
+pip 업그레이드  
+ 
+```
+pip install --upgrade pip
+```  
+
+텐서플로우  
+
+```
+pip install tensorflow
+```
 
 
 
