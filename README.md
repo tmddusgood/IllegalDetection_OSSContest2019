@@ -1,4 +1,4 @@
-# 불법 도박 사이트 분류 - 일리아이즈  
+# 불법 도박 사이트 분류 using Keras Machine Learning + InceptionV3
 Open Source Software Contest 2019
 텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사이트에 대한 단속 목적 
 
