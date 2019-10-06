@@ -25,7 +25,7 @@ Give examples
 설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
 
 설치 후 아래와 같이 환경변수 탭 클릭
-![Alt installation1](/tesseract1.jpg)
+![Alt installation1](C:\Users\rlarlghks\Desktop\tesseract1.jpg)
 
 
 
