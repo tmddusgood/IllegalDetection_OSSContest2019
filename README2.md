@@ -118,7 +118,7 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## 실행방법
 
 Explain how to run the automated tests for this system
 
