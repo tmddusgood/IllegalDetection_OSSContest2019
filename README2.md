@@ -120,15 +120,13 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## 실행방법
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+## 알려진 버그
 
-```
-Give an example
-```
+
+
+
 
 ### And coding style tests
 
