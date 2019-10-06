@@ -1,9 +1,9 @@
 # OSSContest2019 불법 도박 사이트 분류 - 일리아이즈  
-Open Source Software Contest 2019  
+Open Source Software Contest 2019
 텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사이트에 대한 단속 목적 
 
 <center><img src="https://user-images.githubusercontent.com/28249894/66255556-d46a0b00-e7bf-11e9-8797-4e8398a15438.jpg" width="300" height="300"></center>
-<center><그림1 - 불법 도박사이트들이 단속을 피해 사용하는 광고의 예시></center>
+
 텍스트를 인식 및 추출 후 다른 텍스트와 함께 자연어처리를 수행합니다.
 
 # 처리과정
@@ -29,17 +29,15 @@ End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로
 <그림3>에는 일리아이즈의 텍스트/이미지 분석 모델의 발전과정이 나타나 있습니다.  
 초기 분석에는 naive bayesian을 이용하여 텍스트를 분류하였고, 이후 정확도를 높이려는 과정에서 텍스트 분석에 머신러닝을 이용, 이미지 인식에 OCR을 이용하는 방식에서 머신러닝을 추가적으로 적용하였습니다.
 
-# 개발 환경  
+# 개발 환경 및 설치 방법
 
-# 설치 방법  
-## 아나콘다     
+## 아나콘다
 [Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전
   
-## Tessract 5.0-alpha     
+## Tessract 5.0-alpha  
 [Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
 
 * 설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
-
 * 설치 후 아래와 같이 환경변수 탭 클릭  
 
 ![tesseract1](https://user-images.githubusercontent.com/39071632/66267863-9b8a6e80-e871-11e9-9ac2-cc9224976936.JPG)
@@ -78,8 +76,15 @@ pip install h5py
 ```
 
 ## Konlpy  
+* Java 1.7+ 설치
+* JAVA_HOME 설정 (환경 변수)
+* JPype1 (>=0.5.7)을 다운로드 후 설치 (아래 링크에서 버전 별 선택)
+* Window에서는 Mecab() 지원 X
 ```
-Give the example
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype
+pip install -upgrade pip
+EX) pip install JPype1-0.5.7-cp[your_version]-none-win_amd64.whl
+pip install konlpy
 ```
 
  
