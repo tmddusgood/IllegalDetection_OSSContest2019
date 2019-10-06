@@ -6,7 +6,7 @@ One Paragraph of project description goes here
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## 개발환경
 
 What things you need to install the software and how to install them
 
@@ -14,7 +14,7 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-## Installing  
+## 설치방법  
 
 ### 아나콘다     
 [Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전
