@@ -22,10 +22,20 @@ Give examples
 #### Tessract 5.0-alpha     
 [Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
 
-설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
+1.설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
 
-설치 후 아래와 같이 환경변수 탭 클릭
-![Alt installation1](C:\Users\rlarlghks\Desktop\tesseract1.jpg)
+2.설치 후 아래와 같이 환경변수 탭 클릭  
+
+![Alt installation1](C:\Users\rlarlghks\Desktop\tesseract1.jpg)  
+
+3.Path 설정  
+![Alt installation2](C:\Users\rlarlghks\Desktop\tesseract2.jpg)    
+![Alt installation3](C:\Users\rlarlghks\Desktop\tesseract3.jpg)    
+
+4.TESSDATA_PREFIX 설정  
+![Alt installation4](C:\Users\rlarlghks\Desktop\tesseract4.jpg)    
+
+
 
 
 
