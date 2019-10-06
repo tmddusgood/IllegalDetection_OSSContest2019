@@ -101,24 +101,13 @@ pip install tqdm
 ```
 pip install pytesseract
 ```
+#### h5py  
 
+```
+pip install h5py
+```
 
 #### Konlpy  
-
-```
-```
-
-
-
-
-
-
-
-
-
-
-
-
 
 ```
 Give the example
