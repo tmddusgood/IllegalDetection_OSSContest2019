@@ -34,15 +34,15 @@ Open Source Software Contest 2019
 ![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG){: width="40%" height="40%"} 
 
 # 모듈 설치  
-## Tensorflow, Opencv, Keras, Tqdm
+## Tensorflow, Opencv, Keras
 * gpu는 사용할 경우에만 설치
+* 다른 모듈의 경우 Requirements.txt 참조
 ```
 pip install tensorflow==1.12  
 pip install tensorflow-gpu==1.12  
 pip install opencv-contrib-python
 pip install keras==2.3.0
 pip install keras-gpu==2.3.0
-pip install tqdm
 pip install pytesseract
 pip install h5py
 ```
