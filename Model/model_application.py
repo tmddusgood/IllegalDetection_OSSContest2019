@@ -10,10 +10,10 @@ class model_application:
         self.dataform = '.\\Dataset\\dataset_form.csv'
         self.dataset = '.\\Dataset\\prototype_final_shuffle_dataset(50000)_real.csv'
         self.newdata = '.\\Dataset\\pure_new_dataset.csv'
-        self.model_tokenizer = 'tokenizer.word_index_original_new'
-        self.model_nlp = '.\\Model\\illegal_nlp_model_new.h5'
+        self.model_tokenizer = 'tokenizer.word_index_original_new_100000'
+        self.model_nlp = '.\\Model\\illegal_nlp_model_new_100000.h5'
         self.model_tokenizer_path = '.\\Model\\' + self.model_tokenizer
-        self.max_num_words = 30000
+        self.max_num_words = 100000
         self.max_len = 2720 # 한 본문 당 길이는 2720으로 맞춘다(padding 할 때 쓴다).
         self.tokenizer = Tokenizer(num_words=self.max_num_words)  # 객체를 먼저 만들고
 
