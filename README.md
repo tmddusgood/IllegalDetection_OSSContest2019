@@ -2,11 +2,11 @@
 Open Source Software Contest 2019  
 다수의 불법적인 도박 사이트들은 웹 상에 존재하는 수많은 사이트들에 댓글 광고 등의 다양한 수단을 사용하여 일반인들을 유혹하고 있습니다.
 수 년간의 꾸준한 단속에도 불구하고, 불법 도박 사이트들은 이러한 단속의 허점을 이용하여 그 광고 수단 또한 진화하고 있으며 현재에도 활발하게 운영되고 있는 실정입니다. 일리아이즈 소프트웨어는 이러한 불법도박사이트의 효과적인 근절을 위해 개발되었습니다.  
-<그림 1>은 
+
 <center><img src="https://user-images.githubusercontent.com/28249894/66255556-d46a0b00-e7bf-11e9-8797-4e8398a15438.jpg" width="300" height="300"></center>
 <center><그림1 - 불법 도박사이트들이 단속을 피해 사용하는 광고의 예시></center>
-위 그림에는 일반적인 텍스트 광고가 아닌 이미지 위에 텍스트를 표시하여 광고하는 방식으로, 일반적으로 사용되는 텍스트 검사 방식으로는 단속에 어려움이 있습니다.
-이러한 문제점을 인식하여  일리아이즈는 <그림1>에 나와 있는 이미지 위의 텍스트를 인식하여 추출 후 자연어처리를 통하여 해당 이미지가 존재하는 사이트가 도박 사이트인 것을 판단하게 해주는 소프트웨어를 개발하였습니다.  
+ 
+위 그림에는 일반적인 텍스트 광고가 아닌 이미지 위에 텍스트를 표시하여 광고하는 방식으로, 일반적으로 사용되는 텍스트 검사 방식으로는 단속에 어려움이 있습니다. 이러한 문제점을 인식하여  일리아이즈는 <그림1>에 나와 있는 이미지 위의 텍스트를 인식하여 추출 후 자연어처리를 통하여 해당 이미지가 존재하는 사이트가 도박 사이트인 것을 판단하게 해주는 소프트웨어를 개발하였습니다.  
 
 # 처리과정
 일리아이즈 소프트웨어의 전체적인 처리순서는 <그림2>와 같이 진행됩니다.    
@@ -56,78 +56,35 @@ End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로
 
 ![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG)  
 
-## 가상환경 생성   
+## pip 업그레이드, 가상환경 생성 후 활성화 
 
-Anaconda prompt 실행 후 
-
+Anaconda prompt 에서 수행 
 ```
+pip install --upgrade pip
 conda create --name [가상환경명] python=[파이썬 3.x버전]
-```
-
-## 가상환경 활성화
-
-```
 activate [가상환경명]
 ```
 # 모듈 설치  
-  
-## pip 업그레이드  
- 
-```
-pip install --upgrade pip
-```  
+## Tensorflow, Opencv, Keras, Tqdm, 
 
-## Tensorflow  
-
-* cpu 사용
+* gpu는 사용할 경우에만 설치
 ```
 pip install tensorflow==1.12  
-```  
-* GPU 사용    
-```
 pip install tensorflow-gpu==1.12  
-```  
-
-## Opencv  
-
-```
 pip install opencv-contrib-python
-```  
-## Keras  
-
-* cpu 사용 
-```
 pip install keras==2.3.0
-```
-
-* gpu 사용 
-```
 pip install keras-gpu==2.3.0
-```
-
-## Tqdm  
-
-```
 pip install tqdm
-```
-
-## Pytesseract  
-
-```
 pip install pytesseract
-```
-## h5py  
-
-```
 pip install h5py
 ```
 
 ## Konlpy  
-
 ```
 Give the example
 ```
-# 향후 계획  
+
+ 
 ## 향후 계획1  
 그림4는 OpenCV를 이용하여 Image text를 boxing하는 과정을 보여줍니다.
 ![KakaoTalk_20191005_161440639](https://user-images.githubusercontent.com/28249894/66251727-3c9ff900-e78e-11e9-95d8-83c6ee343b22.jpg)  
