@@ -1,13 +1,13 @@
 # Illegal Sports Gambling Filtering by Keras NLP + InceptionV3 Classification
 Open Source Software Contest 2019
-텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사이트에 대한 단속 목적 
+텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사이트에 대한 단속을 목적으로 합니다.
 
 ![image](https://user-images.githubusercontent.com/39071543/66269437-4d7e6680-e883-11e9-9051-820ac8556e4c.png)
 텍스트를 인식 및 추출 후 다른 텍스트와 함께 자연어처리를 수행합니다.  
 
 # 처리과정
   
-![image](https://user-images.githubusercontent.com/39071543/66269507-25dbce00-e884-11e9-980c-7991002b099c.png)     
+![file123](https://user-images.githubusercontent.com/39071543/66269559-b6b2a980-e884-11e9-8038-1bf792acb6ca.PNG)  
 
 * 이미지 처리  
 1. url의  페이지를 OpenCV를 사용하여 텍스트 주위의 영역을  박스로 표시합니다  
@@ -28,22 +28,13 @@ Open Source Software Contest 2019
 [Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
 * 설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
 * Path 설정  
-![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG){: width="50%" height="50%"}
-![tesseract3](https://user-images.githubusercontent.com/39071632/66267866-a04f2280-e871-11e9-837d-cc8f5774d4bc.JPG){: width="50%" height="50%"}
+![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG){: width="40%" height="40%"}
+![tesseract3](https://user-images.githubusercontent.com/39071632/66267866-a04f2280-e871-11e9-837d-cc8f5774d4bc.JPG){: width="40%" height="40%"}
 * TESSDATA_PREFIX 설정
-![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG){: width="50%" height="50%"} 
+![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG){: width="40%" height="40%"} 
 
-## pip 업그레이드, 가상환경 생성 후 활성화 
-
-Anaconda prompt 에서 수행 
-```
-pip install --upgrade pip
-conda create --name [가상환경명] python=[파이썬 3.x버전]
-activate [가상환경명]
-```
 # 모듈 설치  
-## Tensorflow, Opencv, Keras, Tqdm, 
-
+## Tensorflow, Opencv, Keras, Tqdm
 * gpu는 사용할 경우에만 설치
 ```
 pip install tensorflow==1.12  
