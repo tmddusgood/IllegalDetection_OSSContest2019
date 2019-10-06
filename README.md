@@ -27,7 +27,7 @@
 [Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
 * 설치 파일 경로는  C:\Program Files (x86)\Tesseract-OCR   또는 C:\Program Files\Tesseract-OCR  
 * Path 설정  
-![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG){: width="40%" height="40%"}
+![tesseract2](https://user-images.githubusercontent.com/39071632/66267865-9e855f00-e871-11e9-8de0-13722809c1eb.JPG)
 ![tesseract3](https://user-images.githubusercontent.com/39071632/66267866-a04f2280-e871-11e9-837d-cc8f5774d4bc.JPG){: width="40%" height="40%"}
 * TESSDATA_PREFIX 설정
 ![tesseract4](https://user-images.githubusercontent.com/39071632/66267892-df7d7380-e871-11e9-8ee7-2f8b6af20331.JPG){: width="40%" height="40%"} 
@@ -57,3 +57,12 @@ pip install -upgrade pip
 EX) pip install JPype1-0.5.7-cp[your_version]-none-win_amd64.whl
 pip install konlpy
 ```
+
+## 성능  
+* 신문 기사 45000개
+* 방송통신심의위원회 기준에 의거한 불법 도박 사이트 본문과 사진
+| Header One | Header Two | Header Three | Header Four | 
+| ---------- | :--------- | :----------: | ----------: | 
+| Default | Left | Center | Right |
+
+출처: https://poorman.tistory.com/352 [poorman]
