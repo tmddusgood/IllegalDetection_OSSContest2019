@@ -31,9 +31,6 @@ End user로부터 url 페이지를 입력받은 뒤, 해당 url 의 페이지로
 
 # 개발 환경 및 설치 방법
 
-## 아나콘다
-[Anaconda](https://www.anaconda.com/distribution/#download-section)- 파이썬 3.x 버전
-  
 ## Tessract 5.0-alpha  
 [Tesseract 5.0-alpha](https://github.com/UB-Mannheim/tesseract/wiki)- 사용자의 운영체제 버전   
 
@@ -86,22 +83,3 @@ pip install -upgrade pip
 EX) pip install JPype1-0.5.7-cp[your_version]-none-win_amd64.whl
 pip install konlpy
 ```
-
- 
-## 향후 계획1  
-그림4는 OpenCV를 이용하여 Image text를 boxing하는 과정을 보여줍니다.
-![KakaoTalk_20191005_161440639](https://user-images.githubusercontent.com/28249894/66251727-3c9ff900-e78e-11e9-95d8-83c6ee343b22.jpg)  
-<그림 4>   
-이미지에서 텍스트를 무리없이 가져올 수 있는데 이는 배경 이미지에 따라 영향을 많이 받습니다. 그에대한 방안으로 이미지를 팽창시켜서 글자가 있는 영역으로 추정되는 곳을 텍스트 박스 영역으로 추정하여 박스 작업을 합니다. 이를 deiltion이라 합니다. 이는 뒤의 배경이 단순하고 복잡하지 않는 이미지의 텍스트에만 많은 효과를 발휘합니다. 하지만 뒷 배경이 복잡한 이미지는 다음과 같은 문제를 발생시킵니다.  
-![KakaoTalk_20191005_161848846](https://user-images.githubusercontent.com/28249894/66251728-3e69bc80-e78e-11e9-993d-17aa9283e454.jpg)   
-<그림 5>  
-그림5는 deiltion의 수치를 높게 하여 이미지 텍스트에 boxing 작업을 한 결과입니다. 그림에서 볼 수 있듯이 이미지 팽창으로 인하여 boxing이 텍스트와는 별개로 크게 잡히는 현상을 볼 수 있습니다.    
-![KakaoTalk_20191005_162143535](https://user-images.githubusercontent.com/28249894/66251729-3f9ae980-e78e-11e9-9ed3-353dd6ab43c1.jpg)  
-<그림 6>  
-그림6은 반대로 deiltion의 수치를 낮게하여 한 글자씩 boxing 과정을 한 모습입니다. 이 경우 한 글자씩 되는 경우가 많지만 자음 혹은 모음만 boxing을 하거나 안하는 경우가 생겨 이후 인식과정에 영향을 미치도록 합니다.  
-따라서 일리아이즈는 이러한 문제를 해결하여 안정된 boxing을 할 수 있도록 하려 합니다.  
-  
-## 향후 계획2
-일리아이즈는 현재 이미지/텍스트 분석 모델에 머신러닝을 이용하고 있습니다.향후 CTC(Connectionist Temporal Classfication를 이용하여 문자열을 분류할 계획이며, 이를 통해 입력된 url의 페이지로부터 판정된 결과의 정확도에 있어 유의미한 향상을 기대하고 있습니다.  
-![프레젠테이션 1](https://user-images.githubusercontent.com/44759382/66252262-462c5f80-e794-11e9-8c0c-6b9ff2ac8490.png)  
-위의 그림과 같이 문자열 전체를 특정 크기의 구간으로 나누어  해당 구간에서 예측된 결과를 출력하여 중복된 값과 공백은 제거한 뒤 최종 인식된 문자열을 출력하는 방식으로 분류에 정확도를 높일 계획입니다.
