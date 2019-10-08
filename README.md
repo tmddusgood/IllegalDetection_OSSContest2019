@@ -89,6 +89,6 @@ python main.py --csv_path=[your new dataset]
 - InceptionV3 Model 을 사용하여 비텍스트와 텍스트 구분
 - Keras와 K-Fold 교차검증법을 사용한 자연어처리
 - 방송통신심의위원회 기준에 의거한 불법 도박 사이트 본문과 사진 이용
-- Ver 1. Testset Acuuracy: 42.9% (310000개 인덱싱)
+- Ver 1. Testset Acuuracy: 42.9% (310000개 인덱싱) - not included
 - Ver 2. Testset Accuracy: 89.9% (30000개 인덱싱)
 - Ver 3. Testset Accuracy: 97.9% (100000개 인덱싱)
