@@ -68,7 +68,7 @@ python main.py --csv_path=[your new dataset]
 ```
 * .csv should be following (example: \Dataset\dataset_form.csv)
 |제목|내용|설명|
-|제목|내용|설명|
+|----|----|
 |테스트1|테스트2|
 |테스트1|테스트2|
 
