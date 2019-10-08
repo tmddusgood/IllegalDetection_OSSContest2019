@@ -35,7 +35,7 @@ Input URL 혹은 Input CSV 목록에 대해서 높은 정확도의 Prediction �
 
 # 모듈 설치  
 
-## Tensorflow, Opencv, Keras
+## Tensorflow, Opencv, Keras, Pickle
 
 - gpu는 사용할 경우에만 설치
 - 다른 모듈의 경우 Requirements.txt 참조
@@ -48,6 +48,7 @@ pip install keras==2.3.0
 pip install keras-gpu==2.3.0
 pip install pytesseract
 pip install h5py
+pip install pickle
 ```
 
 ## Konlpy  
