@@ -57,7 +57,8 @@ EX) pip install JPype1-0.5.7-cp[your_version]-none-win_amd64.whl
 pip install konlpy
 ```
 
-# Run - 새로운 데이터셋의 본문을 csv 형태로 입력받아 분류
+# Run
+* 새로운 데이터를 .csv 형태로 입력받아서 분류
 ```
 default: \Dataset 폴더의 pure_new_dataset.csv 을 input으로 분류 결과를 results.csv로 제시
 python main.py
@@ -65,6 +66,10 @@ python main.py
 your data: 새로운 input 데이터셋의 분류 결과를 return 해줍니다.
 python main.py --csv_path=[your new dataset]
 ```
+* .csv should be following (example: \Dataset\dataset_form.csv)
+|제목|내용|설명|
+|테스트1|테스트2|
+|테스트1|테스트2|
 
 # Details  
 * 일반 신문 기사 : 스포츠 기사 : 불법 도박사이트 본문 = 7: 2: 1 / 총 45000개로 학습 (Train:Test - 8:2 Split)
