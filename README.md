@@ -77,7 +77,7 @@ your data: 새로운 input 데이터셋의 분류 결과를 return 해줍니다.
 python main.py --csv_path=[your new dataset]
 ```
 
-- .csv should be following (example: \Dataset\dataset_form.csv)
+- .csv should be formed as following (example: \Dataset\dataset_form.csv)
 
 | Classification           | Body         |
 | ------------------------ | ------------ |
