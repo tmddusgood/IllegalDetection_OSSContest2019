@@ -1,6 +1,6 @@
 # Illegal Sports Gambling Filtering by Keras NLP + InceptionV3 Classification
 
-텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사텍스트를 인식 및 추출 후 다른 텍스트와 함께 자연어처리를 수행합니다.
+텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사이트들의 이미지 속 텍스트를 인식 및 추출 후 다른 텍스트와 함께 자연어처리를 수행합니다. 모든 분류의 기사와 비슷한 주제의 스포츠 기사를 섞어 스포츠 도박 관련 텍스트를 분류해낼 수 있습니다.
 
 ![캡처](https://user-images.githubusercontent.com/39071543/66725612-b6ab3e80-ee6e-11e9-894e-d192fc35129e.PNG)
 
