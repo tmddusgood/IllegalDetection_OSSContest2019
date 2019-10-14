@@ -2,6 +2,8 @@
 
 텍스트처리를 피하기 위해서 이미지에 글을 쓰는 도박 사텍스트를 인식 및 추출 후 다른 텍스트와 함께 자연어처리를 수행합니다.
 
+![캡처](https://user-images.githubusercontent.com/39071543/66725612-b6ab3e80-ee6e-11e9-894e-d192fc35129e.PNG)
+
 Input URL 혹은 Input CSV 목록에 대해서 높은 정확도의 Prediction 결과를 줄 수 있습니다.
 
 # 처리과정
