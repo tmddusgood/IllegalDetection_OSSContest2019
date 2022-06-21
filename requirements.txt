@@ -7,7 +7,7 @@ keras-applications==1.0.6
 keras-preprocessing==1.0.5
 konlpy==0.5.1
 matplotlib==3.0.2
-numpy==1.16.2
+numpy==1.22.0
 opencv-contrib-python==4.1.1.26
 pandas==0.23.4
 pytesseract==0.2.6
